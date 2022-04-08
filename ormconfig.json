@@ -1,0 +1,10 @@
+{
+  "type": "mysql",
+  "host": "db",
+  "port": 3306,
+  "username": "changeMe",
+  "password": "changeMe",
+  "database": "tasks-db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
